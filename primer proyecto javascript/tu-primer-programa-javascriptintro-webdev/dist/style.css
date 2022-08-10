@@ -1,0 +1,42 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	background-color: gray;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.saludo {
+	max-width: 768px;
+	background-color: purple;
+	padding: 3rem;
+	border-radius: 1rem;
+	box-shadow: 2px 2px 3px black;
+	color: white;
+	text-align: center;
+}
+
+.saludo h1 {
+	font-size: 3rem;
+	margin-top: 0;
+}
+
+.saludo h2 {
+	margin-top: 0;
+}
+
+.saludo button {
+	width: 100%;
+	border: none;
+	padding: 1rem;
+	font-size: 1rem;
+	border-radius: 5px;
+	background-color: goldenrod;
+	box-shadow: 1px 1px 1px black;
+	cursor: pointer;
+}
